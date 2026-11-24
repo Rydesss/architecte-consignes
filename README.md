@@ -2,7 +2,7 @@
 
 Un plugin pour Claude, en français, qui construit avec vous, au fil d'un entretien guidé, le `CLAUDE.md` de votre espace de travail : le fichier de consignes que Claude Code lit au lancement de chaque session. Il convient à un projet de code comme à un dossier d'entreprise ou à un dossier personnel.
 
-Projet indépendant, non affilié à Anthropic. Conçu pour Claude Code. Il doit aussi fonctionner dans Cowork et sur claude.ai, mais ces deux usages n'ont pas encore été essayés.
+Projet indépendant, non affilié à Anthropic. Conçu pour Claude Code, et essayé le 24/11/2026 dans l'onglet Code de l'application de bureau. Il doit aussi fonctionner dans Cowork et sur claude.ai, mais ces deux usages n'ont pas encore été essayés.
 
 ## Ce qu'il fait
 
