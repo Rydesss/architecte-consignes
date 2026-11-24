@@ -1,0 +1,14 @@
+{
+  "name": "architecte-consignes",
+  "displayName": "Architecte consignes",
+  "version": "1.1.0",
+  "description": "Entretien guidé, en français, qui produit le CLAUDE.md d'un espace de travail, ses fichiers satellites, ses réglages de sécurité et, si besoin, son arborescence. Sert aussi à auditer des consignes existantes.",
+  "author": {
+    "name": "Ridenn Zavatta",
+    "url": "https://github.com/Rydesss"
+  },
+  "homepage": "https://github.com/Rydesss/architecte-consignes",
+  "repository": "https://github.com/Rydesss/architecte-consignes",
+  "license": "MIT",
+  "keywords": ["claude-md", "consignes", "instructions", "audit", "français"]
+}

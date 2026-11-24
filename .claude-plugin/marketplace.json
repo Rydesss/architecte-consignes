@@ -1,0 +1,15 @@
+{
+  "name": "architecte-consignes",
+  "description": "Marketplace du plugin Architecte consignes : un entretien guidé, en français, pour créer ou auditer les consignes de Claude.",
+  "owner": {
+    "name": "Ridenn Zavatta",
+    "url": "https://github.com/Rydesss"
+  },
+  "plugins": [
+    {
+      "name": "architecte-consignes",
+      "source": "./",
+      "description": "Entretien guidé, en français, qui produit le CLAUDE.md d'un espace de travail, ses satellites, ses réglages de sécurité et, si besoin, son arborescence ; audit de consignes existantes."
+    }
+  ]
+}
