@@ -16,7 +16,8 @@
       "PowerShell(Remove-Item *)",
       "PowerShell(Move-Item *)",
       "PowerShell(Rename-Item *)",
-      "PowerShell(git push *)"
+      "PowerShell(git push *)",
+      "mcp__terminal__run_in_terminal"
     ],
     "allow": []
   }

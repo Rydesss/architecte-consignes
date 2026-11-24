@@ -35,7 +35,7 @@ Pour Claude, au remplissage :
 
 - [Règle qui s'ajoute à celle du maître : par exemple, un préfixe ou un sous-dossier obligatoire ici.]
 
-<!-- Chaque interdit est une phrase négative complète, juste même hors de ce titre ou traduite. Claude Code seulement : un interdit sans exception se double d'une règle deny dans le .claude/settings.json de la racine et, si ce sous-dossier peut être ouvert seul, dans le sien, motifs réécrits (ci-dessus). Ajouter alors à l'interdit la mention de controle-qualite.md C14 : « (bloqué par les réglages) », « (bloqué par les réglages dans ce dossier) » ou « demande confirmation ». -->
+<!-- Chaque interdit est une phrase négative complète, juste même hors de ce titre ou traduite. Claude Code seulement : un interdit sans exception se double d'une règle deny dans le .claude/settings.json de la racine et, si ce sous-dossier peut être ouvert seul, dans le sien, motifs réécrits (ci-dessus). Ajouter alors à l'interdit la mention de controle-qualite.md C14, en mots simples : « (bloqué par les réglages) », « (bloqué par les réglages dans ce dossier) » ou « demande d'autorisation » ; pour une commande, la restreindre comme dans `modele-CLAUDE-projet.md` (Interdits), une règle Bash ou PowerShell ne visant pas un autre outil qui lance des commandes (déduction, mecanismes.md §6). -->
 ## Accord préalable et interdits propres
 
 - Demander mon accord avant de [action engageante propre à ce dossier].
