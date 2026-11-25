@@ -1,11 +1,11 @@
 <!--
-MODÈLE : fichier satellite « sources de vérité » (kit Architecte consignes, v1.1).
+MODÈLE : fichier satellite « sources de vérité » (kit Architecte consignes, v1.1.2).
 Pour Claude, au remplissage :
 - Remplir avec les réponses validées du bloc C et les sources repérées à l'étape 1. Remplacer chaque [crochet] ; une valeur inconnue devient « à confirmer ». Supprimer toute section restée vide.
 - Emplacement par défaut : `consignes/sources.md`, dans le dossier de consignes validé à l'étape 3. Mode par défaut : à la demande, avec dans le maître le pointeur « Avant de citer un chiffre, une date, un nom ou une référence, lire `consignes/sources.md` ». L'importer seulement s'il est court et utile à chaque session.
 - Le tableau « Où trouver quoi » du CLAUDE.md maître garde les sources les plus consultées ; ici vivent la liste complète, la hiérarchie et la règle en cas de conflit (C2), que le maître ne reprend pas. Une règle sur une source n'est écrite qu'à un seul de ces deux endroits.
-- Décrire des catégories et des emplacements, jamais une valeur confidentielle. Si un secret a été cité pendant l'entretien, ne pas l'écrire : indiquer où le ranger hors des consignes. Un fichier de secrets trouvé dans l'espace est un constat bloquant (une gravité, pas un arrêt) : sans l'ouvrir, proposer à l'utilisateur de l'en sortir lui-même ; s'il le garde, deny de lecture nommé (C4) et statut « risque accepté » (controle-qualite.md C21).
-- Les données à ne jamais inventer (C3) et les fichiers à ne jamais ouvrir (C4) ont pour seul lieu la section « Interdits » du maître, avec le réglage deny et sa mention (questionnaire.md) : ici, un renvoi seulement. Un autre interdit écrit ici est une phrase négative complète, juste même hors de son titre ou traduite, et une consigne sans garantie.
+- Décrire des catégories et des emplacements, jamais une valeur confidentielle. Si un secret a été cité pendant l'entretien, ne pas l'écrire : indiquer où le ranger hors des consignes. Un fichier de secrets trouvé dans l'espace est un constat bloquant (une gravité, pas un arrêt) : sans l'ouvrir, proposer à l'utilisateur de l'en sortir lui-même ; s'il le garde, deny de lecture nommé (C4) et statut « risque accepté » (controle-qualite.md C21) ; s'il annonce qu'il le sortira, mais que le fichier est encore là quand les réglages s'écrivent, deny de lecture nommé provisoire (C4), « à garder si le fichier revient, ou à retirer après sa sortie », avec la ligne du maître qui le mentionne (SKILL.md, étape 7), statut C21 « sortie annoncée, blocage provisoire ».
+- Les données à ne jamais inventer (C3) et les fichiers à ne jamais ouvrir (C4) ont pour seul lieu la section « Interdits » du maître, avec, pour C4, le réglage deny (questionnaire.md) et sa mention (SKILL.md, étape 5, « Mentions au maître ») : ici, un renvoi seulement. Un autre interdit écrit ici est une phrase négative complète, juste même hors de son titre ou traduite, et une consigne sans garantie.
 - Avec plusieurs agents, les renvois au CLAUDE.md maître visent `AGENTS.md`, sous les mêmes titres de section.
 - La hiérarchie ci-dessous porte sur les données. Entre fichiers de consignes, il n'y a aucune priorité : tout s'additionne (§2).
 - Lu à la demande, ce fichier est ouvert par Claude, qui voit alors ses commentaires : retirer ce commentaire et les autres commentaires de consigne ; garder seulement le dernier.
@@ -49,4 +49,4 @@ Rôle et moment de lecture : lu à la demande, avant de citer ou de reprendre un
 - Supposé : déduit ; le présenter comme une hypothèse.
 - Dans une réponse, marquer ce qui n'est pas observé. Dans un document pour un tiers, n'écrire comme un fait que l'observé, ou le déclaré confirmé par l'utilisateur.
 
-<!-- Propriétaire : [nom ou rôle] · Créé avec le kit Architecte consignes v1.1 -->
+<!-- Propriétaire : [nom ou rôle] · Créé avec le kit Architecte consignes v1.1.2 -->

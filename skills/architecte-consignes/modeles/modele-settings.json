@@ -13,10 +13,14 @@
       "Bash(rm *)",
       "Bash(mv *)",
       "Bash(git push *)",
+      "Bash(curl *)",
+      "Bash(wget *)",
       "PowerShell(Remove-Item *)",
       "PowerShell(Move-Item *)",
       "PowerShell(Rename-Item *)",
       "PowerShell(git push *)",
+      "PowerShell(Invoke-WebRequest *)",
+      "PowerShell(Invoke-RestMethod *)",
       "mcp__terminal__run_in_terminal"
     ],
     "allow": []

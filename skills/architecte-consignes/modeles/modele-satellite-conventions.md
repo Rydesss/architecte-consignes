@@ -1,5 +1,5 @@
 <!--
-MODÈLE : fichier satellite « conventions » (kit Architecte consignes, v1.1).
+MODÈLE : fichier satellite « conventions » (kit Architecte consignes, v1.1.2).
 Pour Claude, au remplissage :
 - Remplir avec les réponses validées du bloc D (classement, nommage, formats, ton et mentions des documents pour tiers), la langue retenue au bloc B et les motifs de nommage relevés à l'étape 1. Remplacer chaque [crochet] ; une valeur inconnue devient « à confirmer ». Supprimer toute section restée vide.
 - Emplacement par défaut : `consignes/conventions.md`, dans le dossier de consignes validé à l'étape 3, lu à la demande. Pointeur dans le maître : « Avant de créer, nommer ou classer un fichier, ou de rédiger un document pour un tiers, lire `consignes/conventions.md` ». Le maître garde seulement la règle de classement la plus courante.
@@ -63,4 +63,4 @@ Rôle et moment de lecture : lu à la demande, avant de créer, nommer, classer 
 - Reprendre le texte exact, sans le reformuler.
 - Une mention qui contient un identifiant, une adresse ou des coordonnées se cite par `[fichier qui la porte]`, sans recopier sa valeur.
 
-<!-- Propriétaire : [nom ou rôle] · Créé avec le kit Architecte consignes v1.1 -->
+<!-- Propriétaire : [nom ou rôle] · Créé avec le kit Architecte consignes v1.1.2 -->

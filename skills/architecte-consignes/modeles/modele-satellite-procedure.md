@@ -1,5 +1,5 @@
 <!--
-MODÈLE : fichier satellite « procédure », lu à la demande (kit Architecte consignes, v1.1).
+MODÈLE : fichier satellite « procédure », lu à la demande (kit Architecte consignes, v1.1.2).
 Pour Claude, au remplissage :
 - Pour une tâche ponctuelle ou rare, ou quand l'utilisateur ne veut pas de skill ; une tâche récurrente validée au bloc E devient plutôt un skill (`modele-skill-procedure.md`).
 - Remplir avec les réponses validées du bloc E (déroulé proposé par Claude et validé compris). Remplacer chaque [crochet] ; une valeur inconnue devient « à confirmer ». Supprimer toute section restée vide. Ne recopier aucune règle générale du maître ; un interdit est une phrase négative complète.
@@ -60,4 +60,4 @@ Rôle et moment de lecture : lu à la demande, en entier, avant de [tâche]. Seu
 
 - [Erreur déjà constatée] : [comment l'éviter].
 
-<!-- Propriétaire : [nom ou rôle] · Créé avec le kit Architecte consignes v1.1 -->
+<!-- Propriétaire : [nom ou rôle] · Créé avec le kit Architecte consignes v1.1.2 -->

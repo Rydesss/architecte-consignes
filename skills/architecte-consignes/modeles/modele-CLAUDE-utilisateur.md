@@ -1,5 +1,5 @@
 <!--
-MODÈLE : CLAUDE.md utilisateur, préférences valables dans tous les projets ; variante `CLAUDE.local.md`, préférences pour un seul projet (kit Architecte consignes, v1.1).
+MODÈLE : CLAUDE.md utilisateur, préférences valables dans tous les projets ; variante `CLAUDE.local.md`, préférences pour un seul projet (kit Architecte consignes, v1.1.2).
 Destination : `~/.claude/CLAUDE.md` (sous Windows : `C:\Users\<nom>\.claude\CLAUDE.md`). À utiliser en mode « préférences personnelles », ou quand une réponse des blocs B, F ou G vaut pour tous les projets. Variante : `CLAUDE.local.md` à la racine du projet (point « Variante » ci-dessous).
 Pour Claude, au remplissage :
 - Remplacer chaque [crochet] par une réponse validée pendant l'entretien. Supprimer toute section restée vide.
@@ -40,7 +40,7 @@ Préférences chargées au lancement de chaque session, dans tous les projets ; 
 
 ## Interdits
 
-- [Ne jamais … : interdit personnel valable dans tous les projets, en phrase négative complète. S'il figure aussi dans `~/.claude/settings.json`, ajouter la mention de `controle-qualite.md` C14, en mots simples : « (bloqué par les réglages) » si le motif couvre tout l'objet, sinon « demande d'autorisation » si une règle ask couvre la forme restante ; pour une commande, la restreindre comme dans `modele-CLAUDE-projet.md` (Interdits), une règle Bash ou PowerShell ne visant pas un autre outil qui lance des commandes (déduction, mecanismes.md §6). Interdit d'envoi : la mention suit seulement l'interdit restreint aux outils bloqués, une commande réseau lancée par Bash ou PowerShell leur échappant (mecanismes.md §6, en partie par déduction), désignés ensemble « les outils d'envoi vers l'extérieur », jamais « tous les outils d'envoi » ni « rien ne sort » tant que restent permis les outils qui transmettent aux sessions ou aux appareils de l'utilisateur, ni par une destination que ces outils atteignent aussi (« vers le cloud ») ; le reste s'écrit à part, en consigne seulement ; deny refusé : aucune mention « bloqué ». Action retenue aussi en accord, la suppression ou l'envoi par exemple : comme dans `modele-CLAUDE-projet.md` (Interdits).]
+- [Ne jamais … : interdit personnel valable dans tous les projets, en phrase négative complète. S'il est couvert par une règle de `~/.claude/settings.json`, ajouter la mention que fixe SKILL.md, étape 5, « Mentions au maître » ; ses lignes « Deny de lecture » ne visent que les motifs `./` : un deny de lecture en `//` ou `~/` n'a pas de mention. Interdit d'envoi, commandes réseau et action retenue aussi en accord (la suppression ou l'envoi, par exemple) : comme dans `modele-CLAUDE-projet.md` (Interdits).]
 
 <!-- Noter seulement ce que Claude ne détecterait pas seul. Aucun chemin propre à un projet. -->
 ## Commandes et pièges de cette machine
@@ -53,4 +53,4 @@ Préférences chargées au lancement de chaque session, dans tous les projets ; 
 - Une préférence répétée dans deux projets différents devient une ligne ici ; une ligne qui ne vaut que pour un projet en sort.
 - Une ligne qu'un projet contredit est reformulée avec sa portée, ou déplacée dans les projets concernés.
 
-<!-- Propriétaire : [nom ou rôle] · Revue : [fréquence] · Créé avec le kit Architecte consignes v1.1 -->
+<!-- Propriétaire : [nom ou rôle] · Revue : [fréquence] · Créé avec le kit Architecte consignes v1.1.2 -->

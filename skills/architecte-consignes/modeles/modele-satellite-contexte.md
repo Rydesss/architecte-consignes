@@ -1,5 +1,5 @@
 <!--
-MODÈLE : fichier satellite « contexte » (kit Architecte consignes, v1.1).
+MODÈLE : fichier satellite « contexte » (kit Architecte consignes, v1.1.2).
 Pour Claude, au remplissage :
 - Créer ce fichier seulement si le contexte utile à chaque session dépasse une quinzaine de lignes ; sinon, l'écrire dans le CLAUDE.md maître. Emplacement par défaut : `consignes/contexte.md`, dans le dossier de consignes validé à l'étape 3.
 - Remplir avec les réponses validées du bloc A et les termes relevés à l'étape 1. Remplacer chaque [crochet] ; une valeur inconnue devient « à confirmer » et rejoint la liste remise à l'utilisateur. Supprimer toute section restée vide.
@@ -49,4 +49,4 @@ Rôle et moment de lecture : importé depuis le CLAUDE.md maître (avec plusieur
 
 - Coordonnées : jamais ici ; elles se trouvent dans `[annuaire ou fichier de contacts]`.
 
-<!-- Propriétaire : [nom ou rôle] · Créé avec le kit Architecte consignes v1.1 -->
+<!-- Propriétaire : [nom ou rôle] · Créé avec le kit Architecte consignes v1.1.2 -->

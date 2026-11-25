@@ -86,7 +86,7 @@ Les mesures 5 à 7 et 10 donnent des faux positifs (dossiers datés `2025-01`, �
 
 Restituer le diagnostic en trois parties : ce qui fonctionne ; ce qui gêne, chaque constat avec sa preuve (chemin, compte) et le principe de la section 3 qu'il contredit ; les propositions classées par gain. Le présenter à l'étape 3, avec l'arborescence proposée et le plan de fichiers, bâti sur ses chemins. Ordre habituel des propositions :
 
-1. faire sortir de l'espace les fichiers de secrets, par l'utilisateur lui-même (constat bloquant ; s'il en garde un, deny de lecture nommé et statut « risque accepté », cas du dossier de code compris : `controle-qualite.md` C21) ;
+1. faire sortir de l'espace les fichiers de secrets, par l'utilisateur lui-même (constat bloquant ; s'il en garde un, deny de lecture nommé et statut « risque accepté » ; s'il annonce qu'il le sortira, deny de lecture nommé provisoire tant qu'il est présent et statut « sortie annoncée, blocage provisoire » ; cas du dossier de code compris : `controle-qualite.md` C21) ;
 2. neutraliser les consignes égarées (gain fort, effort faible) ;
 3. créer la zone d'entrée et la zone d'archives ;
 4. renommer les fourre-tout et lever les doublons de numéros ;

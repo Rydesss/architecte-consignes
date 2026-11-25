@@ -1,7 +1,7 @@
 {
   "name": "architecte-consignes",
   "displayName": "Architecte consignes",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Entretien guidé, en français, qui produit le CLAUDE.md d'un espace de travail, ses fichiers satellites, ses réglages de sécurité et, si besoin, son arborescence. Sert aussi à auditer des consignes existantes.",
   "author": {
     "name": "Ridenn Zavatta",

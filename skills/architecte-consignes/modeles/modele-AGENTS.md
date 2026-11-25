@@ -1,5 +1,5 @@
 <!--
-MODÈLE : AGENTS.md, source commune des consignes de plusieurs agents (kit Architecte consignes, v1.1).
+MODÈLE : AGENTS.md, source commune des consignes de plusieurs agents (kit Architecte consignes, v1.1.2).
 Destination : `AGENTS.md` à la racine, à côté du CLAUDE.md qui l'importe (`modele-CLAUDE-avec-AGENTS.md`), quand plusieurs agents (Claude, Codex, Cursor, etc.) travaillent dans l'espace.
 Pour Claude, au remplissage :
 - Remplacer chaque [crochet] par une réponse validée ; supprimer toute section restée vide ; aucun crochet dans le fichier final (« à confirmer », ajouté à la liste remise à l'utilisateur).
@@ -60,7 +60,7 @@ Pour Claude, au remplissage :
 - Demander mon accord avant de supprimer, de déplacer, de renommer ou d'écraser un fichier existant.
 - [Autre action engageante, en phrase complète : « Demander mon accord avant de payer, de signer, de modifier un compte ou de toucher à la production. »]
 
-<!-- Chaque interdit : une phrase négative complète, juste hors de ce titre et une fois traduite (« Never push to `main`. »). « Bloqué par les réglages » se dit dans le CLAUDE.md voisin. Action retenue aussi en accord (F1), la suppression ou l'envoi par exemple : comme dans `modele-CLAUDE-projet.md` (Interdits), sans interdit qui contredise la ligne d'accord. -->
+<!-- Chaque interdit : une phrase négative complète, juste hors de ce titre et une fois traduite (« Never push to `main`. »). Les mentions des réglages (SKILL.md, étape 5, « Mentions au maître ») vont dans le CLAUDE.md voisin, jamais ici. Action retenue aussi en accord (F1), la suppression ou l'envoi par exemple : comme dans `modele-CLAUDE-projet.md` (Interdits), sans interdit qui contredise la ligne d'accord. -->
 ## Interdits
 
 - Ne jamais inventer une information absente des sources ci-dessus : écrire « à confirmer ».
@@ -85,4 +85,4 @@ Pour Claude, au remplissage :
 - Une règle valable pour tous les agents s'écrit ici, une seule fois ; une règle propre à un agent va dans son fichier.
 - Les dates d'événements et les statuts vont dans `[chemin du suivi]`, jamais ici. La prochaine revue de ces consignes y figure comme une tâche datée.
 
-<!-- Propriétaire : [nom ou rôle] · Agents concernés : [liste] · Revue : [fréquence] · Créé avec le kit Architecte consignes v1.1 -->
+<!-- Propriétaire : [nom ou rôle] · Agents concernés : [liste] · Revue : [fréquence] · Créé avec le kit Architecte consignes v1.1.2 -->

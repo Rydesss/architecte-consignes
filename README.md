@@ -48,26 +48,21 @@ skills/architecte-consignes/      le skill : SKILL.md, references/, modeles/
 
 ## Installer
 
-**Claude Code** (terminal) :
+Le pas à pas complet, pour Windows et pour Mac, est dans le **[mode d'emploi](MODE-EMPLOI.md)**. En bref :
+
+**Depuis l'application** (Windows et Mac) :
+1. Ouvrez **Customize**, puis **Plugins**, ou directement **Plugins** dans la barre latérale.
+2. Cliquez sur **Add**, puis sur **Add marketplace**, et saisissez `Rydesss/architecte-consignes`.
+3. Dans l'onglet **Discover**, choisissez **architecte-consignes**, puis cliquez sur **Add** (ou **Install**).
+
+Le plugin est alors lié à votre compte. Cowork le charge à la tâche suivante. Dans l'onglet Code, il se télécharge au démarrage d'une nouvelle session ; il faut Claude Code 2.1.273 ou plus récent.
+
+**Avec le terminal**, pour l'onglet Code et le terminal seulement :
 
 ```text
 claude plugin marketplace add Rydesss/architecte-consignes
 claude plugin install architecte-consignes@architecte-consignes
 ```
-
-**Application de bureau, onglet Code** (session locale ou SSH) :
-1. Ajoutez d'abord la marketplace avec la première commande ci-dessus. Le terminal et les sessions locales de l'application lisent les mêmes réglages.
-2. Cliquez ensuite sur « + », puis « Add plugins » (ou « Plugins », puis « Browse plugins »).
-3. Installez `architecte-consignes`.
-
-**Cowork, et claude.ai en repli** :
-1. Ouvrez « Plugins » dans la barre latérale. Sur les versions précédentes, c'est « Customize », puis « Plugins ».
-2. Cliquez sur « Add ».
-3. Choisissez :
-   - « Add marketplace », avec `Rydesss/architecte-consignes` ;
-   - ou « Upload plugin », avec l'archive `architecte-consignes-<version>.zip` de la page « Releases » du dépôt.
-
-Les skills y demandent l'exécution de code : activez « Code execution and file creation » dans les réglages (Settings, puis Capabilities). Sur Team et Enterprise, c'est le propriétaire de l'organisation qui l'active. La disponibilité des plugins selon l'offre évolue en ce moment : vérifiez-la dans l'aide de Claude.
 
 Les noms des menus peuvent changer d'une version à l'autre de l'application.
 
@@ -96,6 +91,11 @@ MIT : voir le fichier `LICENSE`.
 
 ## Versions
 
+- 1.1.2 (25/11/2026) : corrections issues du second essai réel, et mode d'emploi pour Windows et Mac (`MODE-EMPLOI.md`).
+  - Les services pas encore connectés sont relevés ; le `CLAUDE.md` ne nomme que les services réellement bloqués.
+  - Un fichier de secrets que vous sortirez plus tard reçoit un blocage de lecture provisoire.
+  - Les commandes réseau reçoivent une demande d'autorisation, aussi quand l'envoi est interdit.
+  - Les mentions écrites dans le `CLAUDE.md` tiennent dans une seule table.
 - 1.1.1 (24/11/2026) : corrections issues de l'essai réel dans l'onglet Code.
   - L'accès aux fichiers est annoncé dès le départ.
   - Les trois niveaux (bloqué, confirmation, consigne) sont expliqués en mots simples.

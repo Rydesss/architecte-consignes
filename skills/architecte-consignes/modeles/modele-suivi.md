@@ -1,5 +1,5 @@
 <!--
-MODÈLE : fichier de suivi (kit Architecte consignes, v1.1).
+MODÈLE : fichier de suivi (kit Architecte consignes, v1.1.2).
 Pour Claude, au remplissage :
 - Ce fichier est l'état, pas une consigne : tâches ouvertes, prochaines actions, échéances. Une règle repérée va dans le maître ou un satellite ; l'état ne va pas dans la mémoire automatique.
 - Emplacement et nom : ceux validés au plan (étape 3). Le maître y pointe depuis « Avant d'agir » sans rien en recopier. Ne jamais l'importer avec @ : il serait chargé à chaque session.
@@ -33,4 +33,4 @@ Rôle et moment de lecture : état des tâches ouvertes, lu au début de chaque 
 - À chaque revue : retirer les tâches abandonnées [vers le journal, si H3 = oui], raccourcir les cellules trop longues, vérifier les liens.
 - Au-delà de [100] lignes ou [15] Ko, faire la revue sans attendre.
 
-<!-- Propriétaire : [nom ou rôle] · Créé avec le kit Architecte consignes v1.1 -->
+<!-- Propriétaire : [nom ou rôle] · Créé avec le kit Architecte consignes v1.1.2 -->

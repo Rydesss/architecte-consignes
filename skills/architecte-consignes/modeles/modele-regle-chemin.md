@@ -5,7 +5,7 @@ paths:
 ---
 
 <!--
-MODÈLE : règle par chemin, fichier `.claude/rules/<sujet>.md` (kit Architecte consignes, v1.1).
+MODÈLE : règle par chemin, fichier `.claude/rules/<sujet>.md` (kit Architecte consignes, v1.1.2).
 Destination : `.claude/rules/[sujet].md` dans le dossier du projet, nom court sans espace. À utiliser pour des règles qui ne valent que pour un dossier ou un type de fichier.
 Pour Claude, au remplissage :
 - La ligne `---` du frontmatter reste la première ligne du fichier : ne rien écrire au-dessus.
@@ -45,4 +45,4 @@ Pour Claude, au remplissage :
 
 - [Contrôle propre à ces fichiers : commande, comparaison à la source, relecture.]
 
-<!-- Propriétaire : [nom ou rôle] · Revue : [fréquence] · Créé avec le kit Architecte consignes v1.1 -->
+<!-- Propriétaire : [nom ou rôle] · Revue : [fréquence] · Créé avec le kit Architecte consignes v1.1.2 -->

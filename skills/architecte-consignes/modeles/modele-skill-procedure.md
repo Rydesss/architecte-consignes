@@ -5,7 +5,7 @@ description: "[Utiliser quand l'utilisateur demande … ou quand … Produit …
 ---
 
 <!--
-MODÈLE : SKILL.md d'une tâche récurrente (kit Architecte consignes, v1.1).
+MODÈLE : SKILL.md d'une tâche récurrente (kit Architecte consignes, v1.1.2).
 Pour Claude, au remplissage :
 - La ligne `---` reste la première du fichier, sinon le frontmatter n'est pas lu (mecanismes.md §11).
 - Créer un skill seulement pour une tâche récurrente validée au bloc E (déroulé proposé par Claude et validé compris). Emplacement : `.claude/skills/<nom>/SKILL.md` (ce projet) ou `~/.claude/skills/<nom>/SKILL.md` (tous les projets).
@@ -71,4 +71,4 @@ Rôle et moment de lecture : procédure de [tâche], lue en entier à l'appel `/
 
 - [Tâche voisine hors périmètre] : [ce qu'il faut faire à la place].
 
-<!-- Propriétaire : [nom ou rôle] · Créé avec le kit Architecte consignes v1.1 -->
+<!-- Propriétaire : [nom ou rôle] · Créé avec le kit Architecte consignes v1.1.2 -->

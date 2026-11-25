@@ -1,5 +1,5 @@
 <!--
-MODÈLE : CLAUDE.md d'un sous-dossier ou d'un sous-projet (kit Architecte consignes, v1.1).
+MODÈLE : CLAUDE.md d'un sous-dossier ou d'un sous-projet (kit Architecte consignes, v1.1.2).
 Destination : `[sous-dossier]/CLAUDE.md`. À utiliser quand un sous-dossier a des règles propres, ou quand il peut être ouvert seul comme dossier de travail.
 Pour Claude, au remplissage :
 - Remplacer chaque [crochet] par une réponse validée. Supprimer toute section restée vide. Aucun crochet dans le fichier final : écrire « à confirmer » et l'ajouter à la liste remise à l'utilisateur.
@@ -35,7 +35,7 @@ Pour Claude, au remplissage :
 
 - [Règle qui s'ajoute à celle du maître : par exemple, un préfixe ou un sous-dossier obligatoire ici.]
 
-<!-- Chaque interdit est une phrase négative complète, juste même hors de ce titre ou traduite. Claude Code seulement : un interdit sans exception se double d'une règle deny dans le .claude/settings.json de la racine et, si ce sous-dossier peut être ouvert seul, dans le sien, motifs réécrits (ci-dessus). Ajouter alors à l'interdit la mention de controle-qualite.md C14, en mots simples : « (bloqué par les réglages) », « (bloqué par les réglages dans ce dossier) » ou « demande d'autorisation » ; pour une commande, la restreindre comme dans `modele-CLAUDE-projet.md` (Interdits), une règle Bash ou PowerShell ne visant pas un autre outil qui lance des commandes (déduction, mecanismes.md §6). -->
+<!-- Chaque interdit est une phrase négative complète, juste même hors de ce titre ou traduite. Claude Code seulement : un interdit sans exception se double d'une règle deny dans le .claude/settings.json de la racine et, si ce sous-dossier peut être ouvert seul, dans le sien, motifs réécrits (ci-dessus). Ajouter alors à l'interdit la mention que fixe SKILL.md, étape 5, « Mentions au maître ». -->
 ## Accord préalable et interdits propres
 
 - Demander mon accord avant de [action engageante propre à ce dossier].
@@ -60,4 +60,4 @@ Pour Claude, au remplissage :
 
 - Une règle qui finit par valoir pour tout l'espace remonte dans le maître et sort d'ici.
 
-<!-- Propriétaire : [nom ou rôle] · Revue : [fréquence] · Créé avec le kit Architecte consignes v1.1 -->
+<!-- Propriétaire : [nom ou rôle] · Revue : [fréquence] · Créé avec le kit Architecte consignes v1.1.2 -->
