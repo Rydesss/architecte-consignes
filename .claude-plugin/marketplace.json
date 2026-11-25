@@ -9,7 +9,7 @@
     {
       "name": "architecte-consignes",
       "source": "./",
-      "description": "Entretien guidé, en français, qui produit le CLAUDE.md d'un espace de travail, ses satellites, ses réglages de sécurité et, si besoin, son arborescence ; audit de consignes existantes."
+      "description": "Entretien guidé, en français, qui produit le CLAUDE.md d'un espace de travail, ses satellites, ses réglages de sécurité et, si besoin, son arborescence ; audit de consignes existantes ; mise en place de l'environnement de base (Obsidian, dossiers Drive ou OneDrive copiés, messagerie en brouillons seulement, Claude in Chrome)."
     }
   ]
 }

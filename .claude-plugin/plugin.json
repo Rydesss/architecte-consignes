@@ -1,8 +1,8 @@
 {
   "name": "architecte-consignes",
   "displayName": "Architecte consignes",
-  "version": "1.1.2",
-  "description": "Entretien guidé, en français, qui produit le CLAUDE.md d'un espace de travail, ses fichiers satellites, ses réglages de sécurité et, si besoin, son arborescence. Sert aussi à auditer des consignes existantes.",
+  "version": "1.2.0",
+  "description": "Entretien guidé, en français, qui produit le CLAUDE.md d'un espace de travail, ses fichiers satellites, ses réglages de sécurité et, si besoin, son arborescence. Sert aussi à auditer des consignes existantes. Prépare aussi l'environnement de base : Obsidian, dossiers récupérés de Google Drive ou OneDrive par copie, Gmail ou Outlook en brouillons seulement, Claude in Chrome.",
   "author": {
     "name": "Ridenn Zavatta",
     "url": "https://github.com/Rydesss"
